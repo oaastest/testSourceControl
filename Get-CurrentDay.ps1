@@ -1,0 +1,3 @@
+workflow Get-CurrentDay {
+    "hi"
+}
