@@ -1,3 +1,3 @@
 workflow Get-CurrentDay {
-    "hi"
+    Get-Date
 }
