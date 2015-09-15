@@ -15,7 +15,7 @@ workflow Stop-AzVM {
 
     # Stop the VMs, in parallel
     ForEach -Parallel ($VMName in $VMsToStop) {
-        Stop-AzureVM -Name $VMName -ServiceName $VMName -Force
+        ##Stop-AzureVM -Name $VMName -ServiceName $VMName -Force
     }
    
 }
